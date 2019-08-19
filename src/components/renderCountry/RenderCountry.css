@@ -1,0 +1,49 @@
+.capitalTagUl{
+    padding: 0px;
+}
+.capitalTagLi{
+    list-style: none;
+    border: 1px solid #d3d3d3;
+    border-bottom: none;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 100%;
+}
+.capitalTagLi span{
+    width: 100%;
+    padding: 10px 10px;
+}
+.capitalTagLi:hover{
+    background: blue;
+}
+.capitalTagLi:hover span{
+    color: white;
+    
+}
+.capitalTagLi:first-child{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.capitalTagLi:last-child{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom: 1px solid #d3d3d3;
+}
+.capitalTagLi button{
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.capitalTagLi button i{
+    background: blue;
+    padding: 3px 6px;
+    border-radius: 8px;
+    color: white;
+}
+
+.active{
+    background: blue;
+    color: white;
+}
